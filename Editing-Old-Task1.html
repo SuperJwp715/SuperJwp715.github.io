@@ -148,6 +148,8 @@
       align-items: center;
       gap: 10px;
       cursor: pointer;
+      text-decoration: none;
+      color: black;
     }
 
     .menu-item i {
@@ -160,7 +162,7 @@
   <header>
     <div class="left-buttons">
       <button><strong>PESP</strong></button>
-      <button>Home</button>
+      <a href="homepage.html"><button>Home</button></a>
     </div>
     <button class="menu-toggle" onclick="toggleMenu()">☰</button>
   </header>
@@ -189,7 +191,7 @@
       <div class="task">Task7</div>
 
       <button>Rank</button>
-      <button>Category Management</button>
+      <a href="Category-Creator.html"><button>Category Management</button></a>
     </div>
 
     <!-- Middle Panel -->
@@ -228,12 +230,13 @@
 
   <!-- Right Dropdown Menu -->
   <div class="right-panel" id="rightMenu">
-    <button class="menu-item"><i>🏠</i> Home</button>
-    <button class="menu-item"><i>⚙️</i> Settings</button>
-    <button class="menu-item"><i>ℹ️</i> Tips</button>
-    <button class="menu-item"><i>💬</i> Feedback</button>
-    <button class="menu-item"><i>❓</i> Help</button>
-    <button class="menu-item"><i>📅</i> Calendar</button>
+    <a href="homepage.html" class="menu-item"><i>🏠</i> Home</a>
+    <a href="Settings.html" class="menu-item"><i>⚙️</i> Settings</a>
+    <a href="Tips.html" class="menu-item"><i>ℹ️</i> Tips</a>
+    <a href="Developer-Feedback.html" class="menu-item"><i>💬</i> Feedback</a>
+    <a href="Help.html" class="menu-item"><i>❓</i> Help</a>
+    <a href="Wireframe2.html" class="menu-item"><i>📅</i> Calendar</a>
+    <a href="Category-Viewer.html" class="menu-item"><i>📂</i> Categories</a>
   </div>
 
   <script>
